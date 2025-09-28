@@ -1,0 +1,26 @@
+{
+  "contracts": {
+    "CryptoSoundsNFT": {
+      "address": "0x0000000000000000000000000000000000000000",
+      "abi": "CryptoSoundsNFT.json"
+    },
+    "AudioMetadata": {
+      "address": "0x0000000000000000000000000000000000000000",
+      "abi": "AudioMetadata.json"
+    }
+  },
+  "networks": {
+    "localhost": {
+      "chainId": 1337,
+      "name": "Local Hardhat"
+    },
+    "sepolia": {
+      "chainId": 11155111,
+      "name": "Sepolia Testnet"
+    },
+    "mainnet": {
+      "chainId": 1,
+      "name": "Ethereum Mainnet"
+    }
+  }
+}
